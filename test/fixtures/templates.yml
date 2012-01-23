@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  matcher_type: 1
+  matcher_value: MyText
+  target: MyString
+
+two:
+  name: MyString
+  description: MyText
+  matcher_type: 1
+  matcher_value: MyText
+  target: MyString

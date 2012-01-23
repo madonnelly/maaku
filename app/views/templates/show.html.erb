@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @template.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @template.description %>
+</p>
+
+<p>
+  <b>Matcher type:</b>
+  <%= @template.matcher_type %>
+</p>
+
+<p>
+  <b>Matcher value:</b>
+  <%= @template.matcher_value %>
+</p>
+
+<p>
+  <b>Target:</b>
+  <%= @template.target %>
+</p>
+
+
+<%= link_to 'Edit', edit_template_path(@template) %> |
+<%= link_to 'Back', templates_path %>
