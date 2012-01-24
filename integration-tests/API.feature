@@ -39,6 +39,10 @@ Scenario: Getting the raw HTML
     Then all the text will be returned from inside the div
 
 
+Scenario: Getting the raw HTML    
+    Given I supply the url for "yelp"
+    When I want all the text within a div
+    Then all the text will be returned from inside the div
 
 
 
